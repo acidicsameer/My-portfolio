@@ -6,6 +6,10 @@
   scroll-behavior: smooth;
 }
 /* ...........................................navbar................................ */
+/* ...........................................navbar................................ */
+/* ...........................................navbar................................ */
+/* ...........................................navbar................................ */
+
 .navbar {
   height: 60px;
   background: linear-gradient(
@@ -15,7 +19,8 @@
     rgba(0, 212, 255, 1) 100%
   );
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  position: sticky;
+  top: 0;
   background-size: 100% 100%;
   display: flex;
   flex-wrap: wrap;
@@ -60,6 +65,10 @@
   margin-right: 0px;
   color: black;
 }
+/* --------------------contact------------ */
+/* --------------------contact------------ */
+/* --------------------contact------------ */
+/* --------------------contact------------ */
 /* --------------------contact------------ */
 
 #contact {
@@ -196,6 +205,11 @@
     }
   }
 }
+
+/* ******************************************about****************************************** */
+/* ******************************************about****************************************** */
+/* ******************************************about****************************************** */
+/* ******************************************about****************************************** */
 /* ******************************************about****************************************** */
 #about {
   background: #282b34;
@@ -223,8 +237,8 @@
   margin-left: 20px;
 }
 .herotext span {
-  color: rgb(231, 46, 46);
-  font-size: larger;
+  color:hotpink;
+  font-size: 30px;
 }
 .herotext a {
   text-decoration: none;
@@ -250,7 +264,7 @@
     width: 0;
   }
   to {
-    width: 20ch;
+    width: 280px;
   }
 }
 
@@ -275,6 +289,10 @@
   color: white;
 }
 
+/* ################################################# footer##################################################### */
+/* ################################################# footer##################################################### */
+/* ################################################# footer##################################################### */
+/* ################################################# footer##################################################### */
 /* ################################################# footer##################################################### */
 footer {
   height: 60px;
@@ -325,10 +343,14 @@ footer img:hover {
   border-radius: 15px;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   skills !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   skills !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   skills !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   skills !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   skills !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
 #skills {
-  flex-wrap: wrap;
   height: 100vh;
-  background-color: #a0a0cc;
+  background-color:  #282b34;
   color: white;
 
   justify-content: center;
@@ -337,6 +359,7 @@ footer img:hover {
   column-gap: 50px;
   row-gap: 10px;
   display: flex;
+  flex-wrap: wrap;
 }
 h1 {
   text-align: center;
@@ -344,15 +367,22 @@ h1 {
 }
 .skillsec {
   margin-top: 100px;
-  color: red;
+  color: rgb(243, 195, 219);
   border: 2px solid white;
+  /* background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
   flex-basis: 20%;
   height: 400px;
   border: 3px solid black;
-  border-radius: 20px;
+  border-radius: 25px;
+background-color: rgb(39, 33, 33);
   & img {
     width: 100%;
-    height: 70%;
+    height: 65%;
     border-radius: 20px;
   }
   & h1 {
@@ -363,9 +393,11 @@ h1 {
 }
 .skillsechtml {
   .progress-bar {
-    border: 2px solid white;
+    border-radius: 15px;
+    border: 2px solid black;
     width: 70%;
-    background: rgb(6, 198, 6);
+    background: rgb(88, 152, 88);
+    color: white;
     height: 30px;
     text-align: center;
     margin: auto;
@@ -374,9 +406,13 @@ h1 {
 }
 .skillseccss {
   .progress-bar {
-    border: 2px solid white;
+    border-radius: 15px;
+    border: 2px solid black;
     width: 50%;
-    background: rgb(6, 198, 6);
+
+    background: rgb(88, 152, 88);
+    color: white;
+
     height: 30px;
     text-align: center;
     margin: auto;
@@ -385,9 +421,11 @@ h1 {
 }
 .skillsectailwind {
   .progress-bar {
-    border: 2px solid white;
+    border-radius: 15px;
+    border: 2px solid black;
     width: 25%;
-    background: rgb(6, 198, 6);
+    background: rgb(88, 152, 88);
+    color: white;
     height: 30px;
     text-align: center;
     margin: auto;
@@ -396,12 +434,48 @@ h1 {
 }
 .skillseccprogramming {
   .progress-bar {
-    border: 2px solid white;
+    border: 2px solid black;
     width: 25%;
-    background: rgb(6, 198, 6);
+    border-radius: 15px;
+    background: rgb(88, 152, 88);
+    color: white;
     height: 30px;
     text-align: center;
     margin: auto;
     padding: 5px;
   }
+}
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Certificates&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Certificates&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Certificates&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Certificates&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Certificates&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+#certificates {
+  height: 100vh;
+  background-color: #121213;
+  color: white;
+  row-gap: 10px;
+  & img {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+  }
+}
+
+.certificatesflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cf {
+  margin: 10px;
+
+  border: 5px solid white;
+}
+#certificates h3 {
+ 
+  font-size: 45px;
+  text-align: center;
+  
 }
