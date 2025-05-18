@@ -93,8 +93,8 @@ nav {
     }
 
     & i {
+      color:white;
       font-size: 23px;
-      color: white;
       margin: 10px;
     }
     & p {
@@ -104,6 +104,7 @@ nav {
       text-decoration: none;
     }
   }
+
   & .consec2 {
     /* width:100%; */
     margin-left: 250px;
@@ -299,21 +300,7 @@ nav {
 footer {
   height: 60px;
   display: flex;
-  background: linear-gradient(
-    to right top,
-    #2ab421,
-    #00b283,
-    #00a9d9,
-    #0096ff,
-    #0071ff,
-    #6359e8,
-    #863bcb,
-    #9b00ab,
-    #b30085,
-    #bc0060,
-    #b9003f,
-    #ae0723
-  );
+  background:#916a6a;
 
   box-sizing: border-box;
 }
