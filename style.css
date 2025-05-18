@@ -93,7 +93,7 @@ nav {
     }
 
     & i {
-      color:white;
+      color: white;
       font-size: 23px;
       margin: 10px;
     }
@@ -244,11 +244,16 @@ nav {
   font-size: 30px;
 }
 .herotext a {
+display: block;
   text-decoration: none;
   color: rgb(247, 243, 246);
   border: 2px solid rgb(23, 23, 23);
   background-color: rgb(43, 140, 105);
+  height:40px;
+  width:100px;
   border-radius: 15px;
+  text-align: center;
+padding:5px;
 }
 
 .intro {
@@ -300,7 +305,7 @@ nav {
 footer {
   height: 60px;
   display: flex;
-  background:#916a6a;
+  background: #916a6a;
 
   box-sizing: border-box;
 }
@@ -357,6 +362,7 @@ h1 {
   margin-top: 100px;
   color: rgb(243, 195, 219);
   border: 2px solid white;
+
   /* background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
@@ -439,7 +445,7 @@ h1 {
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Certificates&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Certificates&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 #certificates {
-  padding:50px;
+  padding: 50px;
   height: 100vh;
   background: linear-gradient(to right, #0f172a, #1e293b);
   color: white;
