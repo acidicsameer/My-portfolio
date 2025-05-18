@@ -11,12 +11,13 @@
 /* ...........................................navbar................................ */
 .navbar {
   height: 60px;
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(9, 9, 121, 1) 35%,
     rgba(0, 212, 255, 1) 100%
-  );
+  ); */
+  background-color: #080c13;
 
   display: flex;
   flex-wrap: wrap;
@@ -215,7 +216,7 @@ nav {
 /* ******************************************about****************************************** */
 /* ******************************************about****************************************** */
 #about {
- background: linear-gradient(90deg, #5a6b9b, #323838,black);  display: flex;
+ background: linear-gradient(90deg, #50535b, #333535,black);  display: flex;
   /* background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
