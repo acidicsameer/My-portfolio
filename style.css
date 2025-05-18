@@ -215,8 +215,7 @@ nav {
 /* ******************************************about****************************************** */
 /* ******************************************about****************************************** */
 #about {
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-  display: flex;
+ background: linear-gradient(90deg, #5a6b9b, #323838,black);  display: flex;
   /* background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
