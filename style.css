@@ -137,7 +137,7 @@ nav {
       outline: none;
       background: transparent;
       color: white;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
     & .email {
       margin-top: 20px;
@@ -153,7 +153,7 @@ nav {
       outline: none;
       background: transparent;
       color: white;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
     & .phone {
       margin-top: 20px;
@@ -169,7 +169,7 @@ nav {
       outline: none;
       background: transparent;
       color: white;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
     & .comment {
       margin-top: 20px;
@@ -185,7 +185,7 @@ nav {
       outline: none;
       background: transparent;
       color: white;
-      font-size: 1.8rem;
+      font-size: 1.3rem;
     }
 
     & .submit {
