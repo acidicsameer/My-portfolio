@@ -216,7 +216,8 @@ nav {
 /* ******************************************about****************************************** */
 /* ******************************************about****************************************** */
 #about {
- background: linear-gradient(90deg, #50535b, #333535,black);  display: flex;
+  background: linear-gradient(90deg, #50535b, #333535, black);
+  display: flex;
   /* background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -244,16 +245,16 @@ nav {
   font-size: 30px;
 }
 .herotext a {
-display: block;
+  display: block;
   text-decoration: none;
   color: rgb(247, 243, 246);
   border: 2px solid rgb(23, 23, 23);
   background-color: rgb(43, 140, 105);
-  height:40px;
-  width:100px;
+  height: 40px;
+  width: 100px;
   border-radius: 15px;
   text-align: center;
-padding:5px;
+  padding: 5px;
 }
 
 .intro {
@@ -305,7 +306,7 @@ padding:5px;
 footer {
   height: 60px;
   display: flex;
-  background: linear-gradient(90deg, #50535b, #333535,black);
+  background: linear-gradient(90deg, #50535b, #333535, black);
 
   box-sizing: border-box;
 }
@@ -438,6 +439,10 @@ h1 {
     margin: auto;
     padding: 5px;
   }
+}
+.skillsec:hover {
+  transform: scale(1.1);
+  color: White;
 }
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Certificates&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Certificates&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
