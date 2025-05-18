@@ -9,7 +9,6 @@
 /* ...........................................navbar................................ */
 /* ...........................................navbar................................ */
 /* ...........................................navbar................................ */
-
 .navbar {
   height: 60px;
   background: linear-gradient(
@@ -18,15 +17,21 @@
     rgba(9, 9, 121, 1) 35%,
     rgba(0, 212, 255, 1) 100%
   );
-  background-repeat: no-repeat;
-  position: sticky;
-  top: 0;
-  background-size: 100% 100%;
+ 
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  padding: 0 10px;
+  
 }
+
+nav {
+  position: static;
+  top: 0;
+
+}
+
 .logo {
   height: 45px;
   width: 45px;
@@ -36,35 +41,34 @@
   filter: contrast(1.5) brightness(110%);
 }
 
-.nav2 {
-  width: 45%;
-}
-.nav2 a {
+.nav3 a {
   text-decoration: none;
   color: white;
-  padding: 20px;
-  float: right;
-  display: inline block;
+  padding: 15px;
+  display: inline-block;
   margin: 3px;
 }
+
 .portfolio {
   width: 50%;
   color: white;
-  float: left;
   margin-left: 10px;
 }
-.nav2 a:hover {
+
+.nav3 a:hover {
   background-color: rgb(111, 200, 111);
   cursor: pointer;
 }
-.nav2 a:active {
+
+.nav3 a:active {
   background-color: rgb(123, 77, 184);
-  cursor: pointer;
 }
-.nav2 i {
-  margin-right: 0px;
-  color: black;
+
+.nav3 i {
+  margin-right: 5px;
+  color: white;
 }
+
 /* --------------------contact------------ */
 /* --------------------contact------------ */
 /* --------------------contact------------ */
@@ -105,7 +109,7 @@
   & .consec2 {
     /* width:100%; */
     margin-left: 250px;
-    margin-top: 50px;
+    margin-top: 100px;
     color: white;
     height: 500px;
     width: 400px;
