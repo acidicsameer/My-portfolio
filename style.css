@@ -290,6 +290,17 @@ nav {
   font-size: medium;
   color: white;
 }
+.herotext :last-child:hover{
+background-color: rgb(1, 15, 1);
+color:white;
+transition: all;
+transition-duration: 1s;
+transition-timing-function: ease-in-out;
+transform: scale(1.1);
+height:40px;
+width:110px;
+
+}
 
 /* ################################################# footer##################################################### */
 /* ################################################# footer##################################################### */
