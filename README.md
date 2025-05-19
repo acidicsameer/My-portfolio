@@ -11,7 +11,6 @@ Welcome to my personal portfolio website. This site reflects my journey as a fro
 
 - **HTML5** – Semantic structure  
 - **CSS3** – Custom styling  
-- **Tailwind CSS** – Utility-first design  
 - **Font Awesome** – Icon library  
 - **Google Fonts (Jost)** – Clean, modern typography  
 
