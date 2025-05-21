@@ -198,7 +198,7 @@ nav {
       border-radius: 20px;
       font-size: 1.8rem;
     }
-    & .login button:hover {
+     .login button:hover {
       background-color: rgb(21, 147, 40);
       color: black;
     }
@@ -233,7 +233,7 @@ nav {
   margin-top: 150px;
   margin-left: 20px;
 }
-.herotext span {
+.typing {
   color: hotpink;
   font-size: 30px;
 }
@@ -247,7 +247,8 @@ nav {
   width: 100px;
   border-radius: 15px;
   text-align: center;
-  padding: 5px;
+  padding: 8px;
+
 }
 
 .intro {
@@ -281,24 +282,56 @@ nav {
 }
 
 .infotext1 {
-  font-size: larger;
+  font-size: 23px;
   color: white;
   margin: 5px;
+  line-height: 2;
 }
-.infotext2 {
-  margin: 5px;
-  font-size: medium;
-  color: white;
+.bio{
+ .html {
+  color: orange ;
+  font-size: 18px;
 }
-.herotext :last-child:hover {
-  background-color: rgb(1, 15, 1);
+
+.css {
+  color: #4682B4;
+  font-size: 18px;
+}
+
+.js {
+  color: #FFD700;
+  font-size: 18px;
+}
+
+.tailwind {
+  color: #20B2AA;
+  font-size: 18px;
+}
+
+.node {
+  color: #32CD32;
+  font-size: 18px;
+}
+
+.php {
+  color: red;
+  font-size: 18px;
+}
+}
+
+.herotext a:hover {
   color: white;
-  transition: all;
-  transition-duration: 1s;
-  transition-timing-function: ease-in-out;
+  transition: all 0.5s ease-in-out;
   transform: scale(1.1);
+  display: inline-block;
   height: 40px;
   width: 110px;
+  margin: 3px;
+  padding: 6px;
+  background-color: rgb(1, 15, 1);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
 /* ################################################# footer##################################################### */
@@ -363,11 +396,12 @@ h1 {
   display: block;
 }
 .skillsec {
-  margin-top: 100px;
+  margin-top: 60px;
   color: rgb(243, 195, 219);
   border: 2px solid white;
-  flex-basis: 20%;
-  height: 400px;
+  flex-basis: 15%;
+  height: 260px;
+
   border: 3px solid black;
   border-radius: 25px;
   background-color: #1e293b;
@@ -399,7 +433,7 @@ h1 {
   .progress-bar {
     border-radius: 15px;
     border: 2px solid black;
-    width: 50%;
+    width: 75%;
 
     background: rgb(88, 152, 88);
     color: white;
@@ -414,7 +448,7 @@ h1 {
   .progress-bar {
     border-radius: 15px;
     border: 2px solid black;
-    width: 25%;
+    width: 75%;
     background: rgb(88, 152, 88);
     color: white;
     height: 30px;
@@ -423,7 +457,7 @@ h1 {
     padding: 5px;
   }
 }
-.skillseccprogramming {
+.skillseccprogramming ,.skillsecjs {
   .progress-bar {
     border: 2px solid black;
     width: 25%;
