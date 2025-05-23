@@ -198,7 +198,7 @@ nav {
       border-radius: 20px;
       font-size: 1.8rem;
     }
-     .login button:hover {
+    .login button:hover {
       background-color: rgb(21, 147, 40);
       color: black;
     }
@@ -248,7 +248,6 @@ nav {
   border-radius: 15px;
   text-align: center;
   padding: 8px;
-
 }
 
 .intro {
@@ -287,36 +286,36 @@ nav {
   margin: 5px;
   line-height: 2;
 }
-.bio{
- .html {
-  color: orange ;
-  font-size: 18px;
-}
+.bio {
+  .html {
+    color: orange;
+    font-size: 18px;
+  }
 
-.css {
-  color: #4682B4;
-  font-size: 18px;
-}
+  .css {
+    color: #4682b4;
+    font-size: 18px;
+  }
 
-.js {
-  color: #FFD700;
-  font-size: 18px;
-}
+  .js {
+    color: #ffd700;
+    font-size: 18px;
+  }
 
-.tailwind {
-  color: #20B2AA;
-  font-size: 18px;
-}
+  .tailwind {
+    color: #20b2aa;
+    font-size: 18px;
+  }
 
-.node {
-  color: #32CD32;
-  font-size: 18px;
-}
+  .node {
+    color: #32cd32;
+    font-size: 18px;
+  }
 
-.php {
-  color: red;
-  font-size: 18px;
-}
+  .php {
+    color: red;
+    font-size: 18px;
+  }
 }
 
 .herotext a:hover {
@@ -339,38 +338,45 @@ nav {
 /* ################################################# footer##################################################### */
 /* ################################################# footer##################################################### */
 /* ################################################# footer##################################################### */
-footer {
-  height: 60px;
-  display: flex;
-  background: linear-gradient(90deg, #50535b, #333535, black);
+ footer i{
+  margin-left:10px;
 
-  box-sizing: border-box;
 }
-.footer2 {
-  color: white;
-  width: 50%;
-
-  align-content: center;
+footer a{
+  text-decoration: none;
 }
-.footer1 {
-  justify-content: center;
-  width: 30%;
+ footer .f1{ 
+  padding:10px;
+  text-align: center;
+    font-size: 30px;
+    background-color: #000001;
 }
 
-footer img {
-  height: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 5px;
-  display: inline block;
-  align-content: center;
-  box-sizing: border-box;
-  background-size: cover;
+.instagram-icon {
+  color:#EB39B4;
 }
-footer img:hover {
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 15px;
+.whatsapp-icon {
+  color:green;
+}
+.facebook-icon {
+  color: rgb(30, 20, 225);
+}
+.telegram-icon {
+  color: skyblue;
+}
+.youtube-icon {
+  color: red;
+}
+.linkedin-icon {
+  color:rgb(69, 69, 247);
+  
+}
+.f2{
+  width:100%;
+  text-align: center;
+  padding: 10px;
+ background-color: #000001;
+  color: #fff;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   skills !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   skills !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -457,7 +463,8 @@ h1 {
     padding: 5px;
   }
 }
-.skillseccprogramming ,.skillsecjs {
+.skillseccprogramming,
+.skillsecjs {
   .progress-bar {
     border: 2px solid black;
     width: 25%;
