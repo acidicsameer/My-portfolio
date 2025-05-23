@@ -344,7 +344,7 @@ nav {
 }
 footer{
   position:fixed;
-  top:0;
+  bottom:0;
 }
 footer a{
   text-decoration: none;
