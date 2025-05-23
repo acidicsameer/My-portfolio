@@ -342,6 +342,10 @@ nav {
   margin-left:10px;
 
 }
+footer{
+  position:fixed;
+  top:0;
+}
 footer a{
   text-decoration: none;
 }
