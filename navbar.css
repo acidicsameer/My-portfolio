@@ -1,0 +1,53 @@
+.navbar {
+    height: 60px;
+
+    background-color: #05070b;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid rgb(5, 1, 1);
+    filter: contrast(1.5) brightness(110%);
+}
+
+.nav3 a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    margin: 3px;
+}
+
+.portfolio {
+    width: 50%;
+    color: white;
+    margin-left: 10px;
+}
+
+.nav3 a:hover {
+    background-color: rgb(111, 200, 111);
+    cursor: pointer;
+}
+
+.nav3 a:active {
+    background-color: rgb(123, 77, 184);
+}
+
+.nav3 i {
+    margin-right: 5px;
+    color: white;
+}

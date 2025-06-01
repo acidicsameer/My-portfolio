@@ -1,0 +1,117 @@
+#skills {
+    background: linear-gradient(90deg, #3b4359, #1c4343, black);
+    min-height: 100vh;
+
+    column-gap: 50px;
+    row-gap: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#skills h1 {
+    text-align: center;
+}
+
+.skillsec {
+    margin-top: 60px;
+    color: rgb(243, 195, 219);
+    border: 2px solid white;
+    flex-basis: 15%;
+    height: 250px;
+
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: #1e293b;
+
+    & img {
+        width: 100%;
+        height: 65%;
+        border-radius: 20px;
+    }
+
+    & h1 {
+        height: 30px;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+.skillsechtml {
+    .progress-bar {
+        border-radius: 15px;
+        border: 2px solid black;
+        width: 70%;
+        background: rgb(88, 152, 88);
+        color: white;
+        height: 30px;
+        text-align: center;
+        margin: auto;
+        padding: 5px;
+    }
+}
+
+.skillseccss {
+    .progress-bar {
+        border-radius: 15px;
+        border: 2px solid black;
+        width: 75%;
+
+        background: rgb(88, 152, 88);
+        color: white;
+
+        height: 30px;
+        text-align: center;
+        margin: auto;
+        padding: 5px;
+    }
+}
+
+.skillsectailwind {
+    .progress-bar {
+        border-radius: 15px;
+        border: 2px solid black;
+        width: 75%;
+        background: rgb(88, 152, 88);
+        color: white;
+        height: 30px;
+        text-align: center;
+        margin: auto;
+        padding: 5px;
+    }
+}
+
+.skillsecreact {
+    .progress-bar {
+        border: 2px solid black;
+        width: 25%;
+        border-radius: 15px;
+        background: rgb(88, 152, 88);
+        color: white;
+        height: 30px;
+        text-align: center;
+        margin: auto;
+        padding: 5px;
+    }
+}
+
+.skillseccprogramming,
+.skillsecjs {
+    .progress-bar {
+        border: 2px solid black;
+        width: 25%;
+        border-radius: 15px;
+        background: rgb(88, 152, 88);
+        color: white;
+        height: 30px;
+        text-align: center;
+        margin: auto;
+        padding: 5px;
+    }
+}
+
+
+.skillsec:hover {
+    transform: scale(1.1);
+    color: White;
+}

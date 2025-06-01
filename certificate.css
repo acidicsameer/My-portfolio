@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "jost";
+  scroll-behavior: smooth;
+}
+
+#certificates {
+  padding: 50px;
+  height: 100vh;
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: white;
+  row-gap: 10px;
+
+  & img {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+  }
+}
+
+.certificatesflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cf {
+  margin: 10px;
+
+  border: 5px solid white;
+}
+
+#certificates h3 {
+  font-size: 45px;
+  text-align: center;
+}

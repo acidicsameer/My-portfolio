@@ -1,0 +1,128 @@
+#about {
+    background: linear-gradient(90deg, #50535b, #333535, black);
+    display: flex;
+
+    height: 100vh;
+    color: white;
+}
+
+.herosection img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 350px;
+    margin-top: 160px;
+    filter: contrast(1.4) brightness(110%);
+}
+
+.herotext {
+    color: white;
+    width: 40%;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.typing {
+    color: hotpink;
+    font-size: 30px;
+}
+
+.herotext a {
+    display: block;
+    text-decoration: none;
+    color: rgb(247, 243, 246);
+    border: 2px solid rgb(23, 23, 23);
+    background-color: rgb(43, 140, 105);
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 8px;
+}
+
+.intro {
+    padding-bottom: 4px;
+    font-size: larger;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-name: typing, blink;
+    animation-duration: 4s, 0.7s;
+    animation-timing-function: steps(30, end), step-end;
+    animation-iteration-count: infinite, infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 280px;
+    }
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: black;
+    }
+}
+
+.infotext1 {
+    font-size: 23px;
+    color: white;
+    margin: 5px;
+    line-height: 2;
+}
+
+.bio {
+    .html {
+        color: orange;
+        font-size: 18px;
+    }
+
+    .css {
+        color: #4682b4;
+        font-size: 18px;
+    }
+
+    .js {
+        color: #ffd700;
+        font-size: 18px;
+    }
+
+    .tailwind {
+        color: #20b2aa;
+        font-size: 18px;
+    }
+
+    .node {
+        color: #32cd32;
+        font-size: 18px;
+    }
+
+    .php {
+        color: red;
+        font-size: 18px;
+    }
+}
+
+.herotext a:hover {
+    color: white;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    display: inline-block;
+    height: 40px;
+    width: 110px;
+    margin: 3px;
+    padding: 6px;
+    background-color: rgb(1, 15, 1);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}

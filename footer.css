@@ -1,0 +1,48 @@
+footer i {
+    margin-left: 10px;
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .f1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #000001;
+}
+
+.instagram-icon {
+    color: #EB39B4;
+}
+
+.whatsapp-icon {
+    color: green;
+}
+
+.facebook-icon {
+    color: rgb(30, 20, 225);
+}
+
+.telegram-icon {
+    color: skyblue;
+}
+
+.youtube-icon {
+    color: red;
+}
+
+.linkedin-icon {
+    color: rgb(69, 69, 247);
+
+}
+
+.f2 {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #000001;
+    color: #fff;
+}
