@@ -2,8 +2,7 @@
 
 Welcome to my personal portfolio website. This site reflects my journey as a front-end developer, showcasing my skills, certifications, and ways to connect with me.
 
-🔗 **Live Website:**  
-👉 [portfolio-acidicsameers-projects.vercel.app](https://portfolio-acidicsameers-projects.vercel.app)
+
 
 ---
 
