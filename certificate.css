@@ -44,6 +44,6 @@
 /* Responsive certificates */
 @media (max-width: 768px) {
   .cf {
-    width: 80vw; /* Make images responsive on small devices */
+    width: 80vw; 
   }
 }

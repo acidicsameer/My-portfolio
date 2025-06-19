@@ -4,11 +4,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; /* vertically center */
+  align-items: center; 
   gap: 40px;
   padding: 30px 20px;
   color: white;
-  min-height: 100vh; /* ensures full viewport height on larger screens */
+  min-height: 100vh; 
 }
 
 /* Profile image */
@@ -28,7 +28,6 @@
   min-width: 280px;
 }
 
-/* Typing effect text */
 .typing {
   color: hotpink;
   font-size: 30px;
@@ -40,7 +39,7 @@
   color:hotpink;
   width: 0;
   animation:
-    typing 4s steps(22, end) infinite,   /* Loop typing */
+    typing 4s steps(22, end) infinite,   
     blink 0.7s step-end infinite;
   max-width: 90vw;
   box-sizing: content-box;
@@ -52,7 +51,7 @@
     width: 0;
   }
   50% {
-    width: 22ch; /* Adjust to your text length */
+    width: 21ch; 
   }
   100% {
     width: 0;
@@ -60,7 +59,6 @@
 }
 
 
-/* Supporting text styles */
 .infotext1 {
   font-size: 1.3rem;
   margin: 10px 0;
@@ -75,7 +73,6 @@
   color: white;
 }
 
-/* Colored skill names */
 .bio .html {
   color: orange;
   font-weight: 600;
@@ -106,7 +103,6 @@
   font-weight: 600;
 }
 
-/* Hire me button */
 .herotext a {
   display: inline-block;
   text-decoration: none;
@@ -117,9 +113,16 @@
   transition: all 0.4s ease-in-out;
   margin-top: 15px;
 }
-
+.cta a{
+  display: inline-block;
+  background-color: #32cd32;
+  color:black;
+  font-size: 18px;
+}
 .herotext a:hover {
+
   background-color: hotpink;
+  
   color: white;
   border-color: hotpink;
   box-shadow: 0 0 20px hotpink;
