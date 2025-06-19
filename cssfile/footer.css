@@ -1,48 +1,44 @@
-footer i {
-    margin-left: 10px;
-
+/* Footer */
+footer {
+    height:60px;
+  background-color: #05070b;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
 }
 
-footer a {
-    text-decoration: none;
+footer .footer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
 }
 
-footer .f1 {
-    padding: 10px;
-    text-align: center;
-    font-size: 30px;
-    background-color: #000001;
+footer .f1 a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.instagram-icon {
-    color: #EB39B4;
+footer .f1 a:hover {
+  color: hotpink;
 }
 
-.whatsapp-icon {
-    color: green;
+footer .f2 {
+  font-size: 0.9rem;
+  color: white;
+  user-select: none;
 }
 
-.facebook-icon {
-    color: rgb(30, 20, 225);
-}
-
-.telegram-icon {
-    color: skyblue;
-}
-
-.youtube-icon {
-    color: red;
-}
-
-.linkedin-icon {
-    color: rgb(69, 69, 247);
-
-}
-
-.f2 {
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    background-color: #000001;
-    color: #fff;
+/* Responsive Footer */
+@media (max-width: 768px) {
+  footer .footer {
+    flex-direction: column;
+    gap: 10px;
+  }
 }

@@ -1,39 +1,49 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: "jost";
-  scroll-behavior: smooth;
+/* Certificates Section */
+#certificates {
+  padding: 20px 15px;
+  max-width: 100%;
+  min-height:100vh;
+  margin: 0 auto 40px;
+  color: white;
+  text-align: center;
+    background-color: #0f172a;
 }
 
-#certificates {
-  padding: 50px;
-  height: 100vh;
-  background: linear-gradient(to right, #0f172a, #1e293b);
-  color: white;
-  row-gap: 10px;
-
-  & img {
-    height: 300px;
-    width: 300px;
-    border: 2px solid black;
-  }
+#certificates h3 {
+  font-weight: 900;
+  color: hotpink;
+  font-size: 2rem;
+  margin-bottom: 15px;
 }
 
 .certificatesflex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 .cf {
-  margin: 10px;
-
-  border: 5px solid white;
+  width: 230px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0f172a;
+  transition: transform 0.3s ease;
 }
 
-#certificates h3 {
-  font-size: 45px;
-  text-align: center;
+.cf img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.cf:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive certificates */
+@media (max-width: 768px) {
+  .cf {
+    width: 80vw; /* Make images responsive on small devices */
+  }
 }

@@ -1,150 +1,189 @@
+/* Contact Section */
 #contact {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100vh;
-    background-color: #0f172a;
-    color: white;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background-color: #0f172a;
+  color: white;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
 
-    .consec1 {
-        width: 30%;
-        margin-left: 100px;
-        margin-top: 100px;
-        margin-right: 100px;
-        /* text-decoration: none;  */
-        padding: 20px;
+.consec1 {
+  width: 30%;
+  margin-left: 100px;
+  margin-top: 180px;
+  margin-right: 100px;
+  padding: 20px;
+}
 
-        & h1 {
-            font-size: 60px;
-            color: lime;
-        }
+.consec1 h1 {
+  font-size: 60px;
+  color: lime;
+  margin-bottom: 30px;
+}
 
-        & i {
-            color: white;
-            font-size: 23px;
-            margin: 10px;
-        }
+.consec1 i {
+  color: white;
+  font-size: 23px;
+  margin-right: 10px;
+}
 
-        & p {
-            color: hotpink;
-        }
+.consec1 p {
+  color: hotpink;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
 
-        & a {
-            text-decoration: none;
-        }
-    }
+.consec1 a {
+  text-decoration: none;
+  color: hotpink;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 20px;
+  transition: color 0.3s ease;
+}
 
-    .consec2 {
-        /* width:100%; */
-        margin-left: 250px;
-        margin-top: 100px;
-        color: white;
-        height: 500px;
-        width: 400px;
-        background-color: black;
-        border-radius: 15px;
-        box-shadow: 3px 3px 3px 5px rgba(156, 150, 187, 0.6);
-        padding: 20px;
+.consec1 a:hover,
+.consec1 a:focus {
+  color: lime;
+  outline: none;
+}
 
-        & .text1 {
-            text-align: center;
-            font-size: 3rem;
-            color: white;
-            padding-top: 40px;
-        }
+.consec2 {
+margin-top: 100px;
+ 
+  color: white;
+  height: auto;
+  max-height: 500px;
+  width: 400px;
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 5px rgba(156, 150, 187, 0.6);
+  padding: 20px;
+  box-sizing: border-box;
+}
 
-        & .register {
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-            margin-bottom: 30px;
-        }
+.consec2 .text1 {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
 
-        & .register input {
-            width: 100%;
-            height: 30px;
-            border: none;
-            border-bottom: 2px solid white;
-            outline: none;
-            background: transparent;
-            color: white;
-            font-size: 1.3rem;
-        }
+.consec2 .register,
+.consec2 .email,
+.consec2 .phone {
+  margin: 20px 20px 30px 20px;
+}
 
-        & .email {
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-            margin-bottom: 30px;
-        }
+.consec2 .register input,
+.consec2 .email input,
+.consec2 .phone input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-size: 1.3rem;
+  padding-left: 5px;
+  transition: border-color 0.3s ease;
+}
 
-        & .email input {
-            width: 100%;
-            height: 30px;
-            border: none;
-            border-bottom: 2px solid white;
-            outline: none;
-            background: transparent;
-            color: white;
-            font-size: 1.3rem;
-        }
+.consec2 .register input:focus,
+.consec2 .email input:focus,
+.consec2 .phone input:focus {
+  border-bottom-color: hotpink;
+}
 
-        & .phone {
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-            margin-bottom: 30px;
-        }
+.consec2 .comment textarea {
+  height: 60px;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #0d0101;
+  color: white;
+  font-size: 18px;
+  padding: 8px;
+  resize: vertical;
+  border: none;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  box-shadow: inset 0 0 5px white;
+}
 
-        & .phone input {
-            width: 100%;
-            height: 30px;
-            border: none;
-            border-bottom: 2px solid white;
-            outline: none;
-            background: transparent;
-            color: white;
-            font-size: 1.3rem;
-        }
+.consec2 .comment textarea:focus {
+  box-shadow: 8px white;
+}
 
-        .comment textarea {
-            height: 60px;
-            width: 90%;
-            margin-left: 20px;
-            margin-right: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            background-color: #0d0101;
-            color: white;
-            font-size: 18px;
-        }
+.consec2 .submit {
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
+.consec2 .submit input {
+  width: 100%;
+  background-color: rgb(73, 165, 165);
+  height: 40px;
+  border-radius: 20px;
+  font-size: 1.8rem;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 700;
+}
 
+.consec2 .submit input:hover,
+.consec2 .submit input:focus {
+  background-color: rgb(21, 147, 40);
+  color: white;
+  outline: none;
+}
 
+/* Responsive Contact Section */
+@media (max-width: 900px) {
+  #contact {
+    flex-direction: column;
+    min-height: auto;
+    align-items: center;
+    padding-bottom: 40px;
+  }
 
-        & .submit {
-            margin-top: 10px;
-            text-align: center;
-            margin-left: 20px;
-            margin-right: 20px;
-        }
+  .consec1 {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 60px;
+    text-align: center;
+  }
 
-        & .submit input {
-            width: 100%;
-            text-decoration: none;
-            background-color: rgb(73, 165, 165);
-            height: 40px;
-            border-radius: 20px;
-            font-size: 1.8rem;
-        }
+  .consec1 h1 {
+    font-size: 3.5rem;
+  }
 
-        .textarea {
-            width: 100%;
+  .consec1 p {
+    font-size: 1.1rem;
+  }
 
-        }
+  .consec2 {
+    margin-left: 0;
+    width: 90%;
+    max-height: none;
+    margin-top: 40px;
+  }
 
-        .login button:hover {
-            background-color: rgb(21, 147, 40);
-            color: black;
-        }
-    }
+  .consec2 .comment textarea {
+    width: 90%;
+  }
 }

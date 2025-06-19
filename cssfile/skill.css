@@ -1,108 +1,137 @@
+/* Skills Section */
 #skills {
-    background: linear-gradient(90deg, #3b4359, #1c4343, black);
-    min-height: 100vh;
+  max-width: 100%;
+ 
+  padding: 50px 30px;
+  background-color: #0f172a;
+  color: white;
 
-    column-gap: 20px;
-    row-gap: 10px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
 
-#skills h1 {
-    text-align: center;
+/* Section Title */
+.section-title {
+  font-weight: 900;
+  color: hotpink;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
+/* Skills Container - Flex */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+/* Skill Card */
 .skillsec {
-    margin-top: 60px;
-    color: rgb(243, 195, 219);
-    border: 2px solid white;
-    width: 200px;
-    height: 250px;
-
-    border: 3px solid black;
-    border-radius: 25px;
-    background-color: #1e293b;
-
-
-    & img {
-        width: 100%;
-        height: 65%;
-        border-radius: 15px;
-    }
-
-    & h1 {
-        height: 30px;
-        text-align: center;
-        margin: 10px;
-    }
+  flex: 1 1 calc(33.33% - 40px);
+  max-width: 32%;
+  background-color: #181f33;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+  transition: 1s ease;
 }
-
-.skillsechtml {
-    .progress-bar {
-        border-radius: 15px;
-        border: 2px solid black;
-        width: 70%;
-        background: rgb(88, 152, 88);
-        color: white;
-        height: 30px;
-        text-align: center;
-        margin: auto;
-        padding: 5px;
-    }
-}
-
-.skillseccss {
-    .progress-bar {
-        border-radius: 15px;
-        border: 2px solid black;
-        width: 75%;
-
-        background: rgb(88, 152, 88);
-        color: white;
-
-        height: 30px;
-        text-align: center;
-        margin: auto;
-        padding: 5px;
-    }
-}
-
-.skillsectailwind {
-    .progress-bar {
-        border-radius: 15px;
-        border: 2px solid black;
-        width: 75%;
-        background: rgb(88, 152, 88);
-        color: white;
-        height: 30px;
-        text-align: center;
-        margin: auto;
-        padding: 5px;
-    }
-}
-
-
-
-
-.skillseccprogramming,
-.skillsecjs,
-.skillsecreact {
-    .progress-bar {
-        border: 2px solid black;
-        width: 25%;
-        border-radius: 15px;
-        background: rgb(88, 152, 88);
-        color: white;
-        height: 30px;
-        text-align: center;
-        margin: auto;
-        padding: 5px;
-    }
-}
-
 
 .skillsec:hover {
-    transform: scale(1.1);
-    color: White;
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px hotpink;
+}
+
+/* Skill Image */
+.skillsec img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin: 0 auto 12px;
+  display: block;
+  border-radius: 12px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Skill Title */
+.skillsec h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/* Progress Bar Container */
+.progress-bar {
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Progress Text */
+.progress-bar::after {
+  content: attr(data-progress);
+  position: absolute;
+  right: 12px;
+  top: 2px;
+  font-size: 0.85rem;
+  color: black;
+  font-weight: 600;
+}
+
+/* Skill Fill Backgrounds */
+.skillsechtml .progress-bar {
+  background: linear-gradient(90deg, orange 75%, #ccc 0);
+}
+
+.skillsecccss .progress-bar {
+  background: linear-gradient(90deg, #4682b4 75%, #ccc 0);
+}
+
+.skillsectailwind .progress-bar {
+  background: linear-gradient(90deg, #20b2aa 75%, #ccc 0);
+}
+
+.skillsecjs .progress-bar {
+  background: linear-gradient(90deg, #ffd700 25%, #ccc 0);
+}
+
+.skillseccprogramming .progress-bar {
+  background: linear-gradient(90deg, #999 25%, #ccc 0);
+}
+
+.skillsecreact .progress-bar {
+  background: linear-gradient(90deg, #61dafb 25%, #ccc 0);
+}
+
+/* Responsive for Tablets */
+@media (max-width: 1024px) {
+  .skillsec {
+    flex: 1 1 calc(50% - 30px);
+    max-width: 48%;
+  }
+}
+
+/* Responsive for Phones */
+@media (max-width: 600px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skillsec {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .skillsec img {
+    width: 250px;
+    height: 180px;
+  }
 }

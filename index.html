@@ -2,220 +2,169 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
-  <link rel="shortcut icon" href="logonav.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <link rel="stylesheet" href="./cssfile/certificate.css">
-  <link rel="stylesheet" href="./cssfile/about.css">
-  <link rel="stylesheet" href="./cssfile/contact.css">
-  <link rel="stylesheet" href="./cssfile/footer.css">
-  <link rel="stylesheet" href="./cssfile/skill.css">
-  <link rel="stylesheet" href="./cssfile/navbar.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sameer Sapkota Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Jost&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="shortcut icon" href="logonav.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="navbar.css" />
+<link rel="stylesheet" href="about.css" />
+<link rel="stylesheet" href="skill.css" />
+<link rel="stylesheet" href="certificate.css" />
+<link rel="stylesheet" href="footer.css" />
+<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <nav>
     <div class="navbar">
       <div class="nav1">
-        <img src="../image/logo.jpg" class="logo" alt="logo">
+        <img src="../image/logo.jpg" alt="logo" class="logo" />
       </div>
-
-      <div class="portfolio nav2">
-        <p>My Portfolio</p>
-      </div>
-
+      <div class="portfolio nav2">My Portfolio</div>
       <div class="nav3">
         <a href="#about"><i class="fa fa-user"></i> About</a>
-
         <a href="#skills"><i class="fa fa-cogs"></i> Skills</a>
         <a href="#certificates"><i class="fa fa-certificate"></i> Certificates</a>
         <a href="#contact"><i class="fa fa-phone"></i> Contact</a>
       </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   </nav>
 
-
   <section id="about">
-    <div class="herosection ">
-      <img src="../image/myphoto.jpg" alt="">
+    <div class="herosection">
+      <img src="../image/myphoto.jpg" alt="Sameer Sapkota" />
     </div>
     <div class="herotext">
-      <h1 class="intro">Hi, I'm <span class="typing">Sameer Sapkota</span></h1>
+      <h1 class="intro">Hi, I'm Sameer Sapkota</h1>
       <p class="infotext1">Front-End Developer | UI/UX Enthusiast | JavaScript Lover</p>
-
       <div class="bio">
         I am currently a second-semester Computer Engineering student at Tribhuvan University, passionate about
         full-stack web development. I build responsive and accessible websites using modern frontend tools like
-        <span class="html">HTML</span>,
-        <span class="css">CSS</span>,
-        <span class="js">JavaScript</span>, and
-        <span class="tailwind">Tailwind CSS</span>, along with backend technologies such as
-        <span class="node">Node.js</span>, and
-        <span class="php">PHP</span>.
-        I focus on writing clean, maintainable code and delivering user-centered, fast, and engaging digital
-        experiences. Whether starting from scratch or improving existing systems, I love blending creativity with
-        functionality to build beautiful and efficient web solutions.
+        <span class="html">HTML</span>, <span class="css">CSS</span>, <span class="js">JavaScript</span>, and
+        <span class="tailwind">Tailwind CSS</span>, along with backend technologies such as <span class="node">Node.js</span>,
+        and <span class="php">PHP</span>. I focus on writing clean, maintainable code and delivering user-centered, fast,
+        and engaging digital experiences. Whether starting from scratch or improving existing systems, I love blending
+        creativity with functionality to build beautiful and efficient web solutions.
       </div>
-
-      <div class="cta">
-        <a href="#contact">Hire Me</a>
-      </div>
+      <div class="cta"><a href="#contact">Hire Me</a></div>
     </div>
-
   </section>
-  <section id="skills">
+
+ <section id="skills">
+  <div class="section-title">Skills</div>
+  <div class="skills-container">
     <div class="skillsec skillsechtml">
-      <img src="../image/html.png" alt="">
-      <h1>Html</h1>
-      <div class="progress-bar">
-        75%
-      </div>
+      <img src="./image/html.png" alt="HTML">
+      <h1>HTML</h1>
+      <div class="progress-bar" data-progress="75%"></div>
     </div>
-
-    <div class="skillsec skillseccss">
-      <img src="../image/css.png" alt="">
+    <div class="skillsec skillsecccss">
+      <img src="./image/css.png" alt="CSS">
       <h1>CSS</h1>
-      <div class="progress-bar">
-        75%
-      </div>
+      <div class="progress-bar" data-progress="75%"></div>
     </div>
-    <div class="skillsec  skillsectailwind">
-      <img src="../image/tailwind.png" alt="">
-      <h1>Tailwind-CSS</h1>
-      <div class="progress-bar">
-        75%
-      </div>
+    <div class="skillsec skillsectailwind">
+      <img src="./image/tailwind.png" alt="Tailwind CSS">
+      <h1>Tailwind</h1>
+      <div class="progress-bar" data-progress="75%"></div>
     </div>
-    <div class="skillsec  skillsecjs">
-      <img src="../image/js.png" alt="">
+    <div class="skillsec skillsecjs">
+      <img src="./image/js.png" alt="JavaScript">
       <h1>JavaScript</h1>
-      <div class="progress-bar">
-        25%
-      </div>
+      <div class="progress-bar" data-progress="25%"></div>
     </div>
-
     <div class="skillsec skillseccprogramming">
-      <img src="../image/cprogramming.png" alt="">
-      <h1>C-programming</h1>
-      <div class="progress-bar">
-        25%
-      </div>
+      <img src="./image/cprogramming.png" alt="C Programming">
+      <h1>C Programming</h1>
+      <div class="progress-bar" data-progress="25%"></div>
     </div>
-
     <div class="skillsec skillsecreact">
-      <img src="../image/react.png" alt="">
+      <img src="./image/react.png" alt="React.js">
       <h1>React.js</h1>
-      <div class="progress-bar">
-        25%
-      </div>
+      <div class="progress-bar" data-progress="25%"></div>
     </div>
+  </div>
+</section>
 
-
-
-  </section>
   <section id="certificates">
-    <h3> Certificates</h3>
+    <h3>Certificates</h3>
     <div class="certificatesflex">
-      <div class="cf1 cf"><img src="../image/certificate-693.png" alt=""></div>
-      <div class="cf2 cf"><img src="../image/workshop.jpg" alt=""></div>
-      <div class="cf1 cf"><img src="../image/certificate-693.png" alt=""></div>
-      <div class="cf2 cf"><img src="../image/workshop.jpg" alt=""></div>
+      <div class="cf cf1"><img src="../image/certificate-693.png" alt="Certificate 1" /></div>
+      <div class="cf cf2"><img src="../image/workshop.jpg" alt="Workshop" /></div>
+      <div class="cf cf1"><img src="../image/certificate-693.png" alt="Certificate 2" /></div>
+      <div class="cf cf2"><img src="../image/workshop.jpg" alt="Workshop" /></div>
     </div>
-
   </section>
+
   <section id="contact">
     <div class="consec1">
-      <h1> Contact me </h1>
-      <p> "I’m always open to new connections and conversations. Don’t hesitate to drop a message — I’ll get back to you
-        as soon as I can!" </p><br>
-      <i class="fa fa-phone"></i>9807409596<br>
-      <i class="fa fa-envelope"></i> acidicsameer008@gmail.com<br>
-      <i class="fa fa-map-marker"></i> Dharan,purwanchal campus<br><br>
-      Find Us in Social Media:<br>
-      <div class="f1">
-        <a href="https://www.facebook.com" target="_blank">
-          <i class="fa fa-facebook-f"></i>
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-          <i class="fa fa-instagram instagram-icon"> </i></a>
-        <a href="http://whatsapp.com" target="_blank">
-          <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-        <a href="http://telegram.com" target="_blank">
-          <i class="fa fa-telegram telegram-icon"></i></a>
-        <a href="http://github.com github-icon" target="_blank">
-          <i class="fa fa-github"></i></a>
-        <a href="http://youtube.com" target="_blank">
-          <i class="fa fa-youtube youtube-icon"></i>
-          <a href="http://linkedin.com" target="_blank">
-            <i class="fa fa-linkedin linkedin-icon"></i></a>
-
-      </div>
-
-
+      <h1>Contact Me</h1>
+      <p><i class="fa fa-phone"></i> +9807409596</p>
+      <p><i class="fa fa-envelope"></i> acidicsameer008@gmail.com</p>
+      <p><i class="fa fa-map-marker"></i> Dharan, Purwanchal Campus</p>
+      <p>Feel free to reach out anytime!</p>
 
     </div>
-    <div class="consec2">
-      <div class="text1">
-        Contact form</div>
- <form
-  action="https://formspree.io/f/mnnvnppy"
-  method="POST"
->
-        <div class="register">
 
-          </i><input type="text" placeholder="Username" name="username" /></div>
+    <div class="consec2">
+      <div class="text1">Send a Message</div>
+      <form action="https://formspree.io/f/mnnvnppy" method="POST">
+        <div class="register">
+          <input type="text" name="username" placeholder="Username" required />
+        </div>
         <div class="email">
-          <input type="email" placeholder="Email" name="email" />
+          <input type="email" name="email" placeholder="Email" required />
         </div>
         <div class="phone">
-          <input type="number" name="number" placeholder="Enter your phone number">
+          <input type="tel" name="number" placeholder="Phone Number" pattern="[0-9]{10,15}" required />
         </div>
         <div class="comment">
-          <textarea name="message" id="textarea" placeholder="Message me"></textarea>
+          <textarea name="message" placeholder="Message me" required></textarea>
         </div>
         <div class="submit">
-
-          <input type="submit" value="Submit Now">
+          <input type="submit" value="Submit Now" />
         </div>
-
+      </form>
     </div>
-    </form>
   </section>
-
-
 
   <footer>
     <div class="container">
       <div class="footer">
         <div class="f1">
-          <a href="https://www.facebook.com" target="_blank">
-            <i class="fa fa-facebook-f"></i>
-          </a>
-          <a href="https://www.instagram.com/" target="_blank">
-            <i class="fa fa-instagram instagram-icon"> </i></a>
-          <a href="http://whatsapp.com" target="_blank">
-            <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-          <a href="http://telegram.com" target="_blank">
-            <i class="fa fa-telegram telegram-icon"></i></a>
-          <a href="https://github.com/acidicsameer" target="_blank">
-            <i class="fa fa-github"></i></a>
-          <a href="https://www.youtube.com/@damnit2" target="_blank">
-            <i class="fa fa-youtube youtube-icon"></i>
-            <a href="https://www.linkedin.com/in/sameer-sapkota-9b40382b3/" target="_blank">
-              <i class="fa fa-linkedin linkedin-icon"></i></a>
-
+          <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram instagram-icon"></i></a>
+          <a href="http://whatsapp.com" target="_blank"><i class="fa fa-whatsapp whatsapp-icon"></i></a>
+          <a href="http://telegram.com" target="_blank"><i class="fa fa-telegram telegram-icon"></i></a>
+          <a href="https://github.com/acidicsameer" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="https://www.youtube.com/@damnit2" target="_blank"><i class="fa fa-youtube youtube-icon"></i></a>
+          <a href="https://www.linkedin.com/in/sameer-sapkota-9b40382b3/" target="_blank"><i
+              class="fa fa-linkedin linkedin-icon"></i></a>
         </div>
-
-        <div class="f2">
-          &copy; 2025 acidic-sameer. All rights reserved.
-        </div>
+        <div class="f2">&copy; 2025 acidic-sameer. All rights reserved.</div>
       </div>
     </div>
   </footer>
+
+  <script>
+    // Hamburger toggle
+    const hamburger = document.getElementById("hamburger");
+    const nav3 = document.querySelector(".nav3");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      nav3.classList.toggle("active");
+    });
+  </script>
 </body>
 
 </html>

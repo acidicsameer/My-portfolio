@@ -1,53 +1,127 @@
-.navbar {
-    height: 60px;
-
-    background-color: #05070b;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
-}
-
+/* Navbar */
 nav {
-    position: sticky;
-    top: 0;
+  position: sticky;
+  top: 0;
+  background-color: #05070b;
+  z-index: 999;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.logo {
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-    margin-right: 10px;
-    border: 2px solid rgb(5, 1, 1);
-    filter: contrast(1.5) brightness(110%);
+.navbar {
+  max-width: 100%;
+  margin: auto;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.nav3 a {
-    text-decoration: none;
-    color: white;
-    padding: 15px;
-    display: inline-block;
-    margin: 3px;
+.nav1 .logo {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 2px solid rgb(5, 1, 1);
+  filter: contrast(1.5) brightness(110%);
 }
 
 .portfolio {
-    width: 50%;
-    color: white;
-    margin-left: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav3 {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+}
+
+.nav3 a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 8px;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+  flex-shrink: 1;
 }
 
 .nav3 a:hover {
-    background-color: rgb(111, 200, 111);
-    cursor: pointer;
-}
-
-.nav3 a:active {
-    background-color: rgb(123, 77, 184);
+  background-color: rgb(111, 200, 111);
+  cursor: pointer;
 }
 
 .nav3 i {
-    margin-right: 5px;
-    color: white;
+  margin-right: 5px;
+  color: white;
+}
+
+/* Hamburger styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  width: 25px;
+  height: 20px;
+  justify-content: center;
+}
+
+.hamburger span {
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Navbar responsive */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav3 {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #05070b;
+    border-top: 1px solid #333;
+  }
+
+  .nav3.active {
+    display: flex;
+  }
+
+  .portfolio {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+
+  .nav3 a {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #333;
+  }
 }
