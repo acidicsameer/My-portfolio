@@ -79,7 +79,7 @@
 }
 
 .bio .css {
-  color: #4682b4;
+  color:blue;
   font-weight: 600;
 }
 
@@ -89,6 +89,10 @@
 }
 
 .bio .tailwind {
+  color:skyblue;
+  font-weight: 600;
+}
+.bio .react{
   color: #20b2aa;
   font-weight: 600;
 }
@@ -98,8 +102,8 @@
   font-weight: 600;
 }
 
-.bio .php {
-  color: red;
+.bio .MongoDB {
+  color: rgb(128, 68, 26);
   font-weight: 600;
 }
 
