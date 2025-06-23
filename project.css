@@ -50,17 +50,35 @@ border-radius: 15px;
 }
 .demo{
     display: block;
-    background-color: #2bba0e;
     width:100%;
-    border-radius: 10px;
 height:30px;
-text-align: center;
-font-size: 18px;
-padding:5px;
+padding-left: 4px;
+
 }
 .demo a{
     text-decoration: none;
     color:white;
+    height:30px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 6px;
+}
+#a1{
+  float:left;
+  
+}
+#a2{
+  float:right;
+  margin-right: 3px;
+}
+#a1:hover,#a2:hover{
+  background-color:green;
+transition-duration: .5s;
+transition-timing-function: ease-in-out;
+transform: scale(1.05);
+
+
 }
 
 .pro1:hover,.pro2:hover {
