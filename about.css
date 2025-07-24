@@ -16,7 +16,7 @@
   height: 250px;
   width: 250px;
   border-radius: 50%;
-  filter: contrast(1.4) brightness(110%);
+
   object-fit: cover;
   flex-shrink: 0;
 }
