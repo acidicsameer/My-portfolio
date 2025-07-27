@@ -13,9 +13,25 @@ background-color: #0b1023;
   
 }
 .container{
+  
     display: flex;
     gap:40px;
     flex-wrap: wrap;
+}
+.tools-used {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.tools-used img {
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.tools-used img:hover {
+  transform: scale(1.1);
 }
 .pro1,.pro2{  
     display:flex;
@@ -51,8 +67,9 @@ border-radius: 15px;
 .demo{
     display: block;
     width:100%;
-height:30px;
-padding-left: 4px;
+
+margin: 5px;
+
 
 }
 .demo a{
@@ -105,6 +122,7 @@ transform: scale(1.05);
    width:300px;
    border-radius: 5px;;
 }
+
 }
 @media (min-width: 768px) and (max-width: 1024px) {
    .pro1,.pro2{  

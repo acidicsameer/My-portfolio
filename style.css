@@ -3,4 +3,9 @@
   padding: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
+
+
+}
+body{
+     background-color: #181f33;
 }
