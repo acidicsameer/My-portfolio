@@ -24,16 +24,15 @@ footer {
   margin-right: 50px;
 }
 
-.f1 a:hover {
-  transform: scale(1.7);
-}
-.f1 a:nth-child(1):hover { color: #1877f2; }   
-.f1 a:nth-child(2):hover { color: #e1306c; }    
-.f1 a:nth-child(3):hover { color: #25d366; }   
-.f1 a:nth-child(4):hover { color: #0088cc; }   
-.f1 a:nth-child(5):hover { color: #333; }       
-.f1 a:nth-child(6):hover { color: #ff0000; }    
-.f1 a:nth-child(7):hover { color: #0077b5; }    
+
+.f1 a:nth-child(1) { color: #1877f2; }  
+.f1 a:nth-child(2) { color: #e1306c; }   
+.f1 a:nth-child(3) { color: #25d366; }  
+.f1 a:nth-child(4) { color: #0088cc; }  
+.f1 a:nth-child(5) { color: #cba4a4; }      
+.f1 a:nth-child(6) { color: #ff0000; }  
+.f1 a:nth-child(7) { color: #0077b5; }   
+
 
 .f2 {
   font-size: 1rem;
